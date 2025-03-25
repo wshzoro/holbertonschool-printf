@@ -15,19 +15,20 @@ return (_putchar(c));
 
 /**
  * p_str - print a string
- * @args: arguments
+ * @str: arguments
  *
  * Return: 1
  */
-int p_str(va_list args)
+int p_str(char *str)
 {
 int i = 0;
-char *str = ("NULL");
+str = ("NULL");
 while (str[i] != '\0')
 {
 _putchar(str[i]);
 i++;
 }
+return(1);
 }
 
 /**

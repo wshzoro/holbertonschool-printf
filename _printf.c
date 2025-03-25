@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - unction that produces output according to a format
+ * _printf - function that produces output according to a format
  * @format: is a character string
  *
  * Return: he number of characters printed
@@ -9,9 +9,9 @@
 int _printf(const char *format, ...)
 {
 va_list args;
-int len = 0;
+int count = 0;
 
-if (!format)
+if (format == NULL)
 return (-1);
 
 va_start(args, format);
@@ -21,25 +21,25 @@ if (*format == '%' && (format + 1))
 {
 format++;
 if (*format == 's')
-len += pr_str(args);
+count += p_str(args);
 else if (*format == 'c')
-len += p_char(args);
+count += p_char(args);
 else if (*format == '%')
-len += p_percent(args);
+count += p_percent(args);
 else
 {
 _putchar('%');
 _putchar(*format);
-len += 2;
+count += 2;
 }
 }
 else
 {
 _putchar(*format);
-len++;
+count++;
 }
 format++;
 }
 va_end(args);
-return (len);
+return (count);
 }
