@@ -28,8 +28,8 @@ while (str[i] != '\0')
 _putchar(str[i]);
 i++;
 }
-return(1);
-}gi
+return (1);
+}
 
 /**
  * p_percent - print the char '%'
