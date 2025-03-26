@@ -17,7 +17,7 @@ return (-1);
 va_start(args, format);
 while (*format)
 {
-if (*format == '%' && (format + 1))
+if (*format == '%')
 {
 format++;
 if (*format == 's')

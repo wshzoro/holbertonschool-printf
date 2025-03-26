@@ -10,4 +10,5 @@ int _putchar(char c);
 int p_char(va_list args);
 int p_str(va_list args);
 int p_percent(va_list args);
+int p_int(va_list args);
 #endif

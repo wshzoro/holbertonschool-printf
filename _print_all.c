@@ -15,21 +15,25 @@ return (_putchar(c));
 
 /**
  * p_str - print a string
- * @str: arguments
+ * @args : arguments
  *
  * Return: 1
  */
-int p_str(char *str)
+int p_str(va_list args)
 {
-int i = 0;
-str = ("NULL");
+char *str;
+int i = 0, count = 0;
+str = va_arg(args, char*);
+if (str == NULL)
+str = "(null)";
 while (str[i] != '\0')
 {
 _putchar(str[i]);
 i++;
+count++;
 }
-return(1);
-}gi
+return (count);
+}
 
 /**
  * p_percent - print the char '%'
