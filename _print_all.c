@@ -29,7 +29,7 @@ _putchar(str[i]);
 i++;
 }
 return(1);
-}
+}gi
 
 /**
  * p_percent - print the char '%'
