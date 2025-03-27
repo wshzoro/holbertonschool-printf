@@ -57,4 +57,4 @@ _printf("Invalid specifier: %z\\n");
 Prints: %z (the percent sign and the specifier itself)
 
 .SH AUTHORS
-Brenda Pollagba, Abdellah Dydouh
+Najwa RACHDI, Julie BOITEL-FURLAN
