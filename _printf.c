@@ -26,6 +26,8 @@ else if (*format == 'c')
 count += p_char(args);
 else if (*format == '%')
 count += p_percent(args);
+else if (*format == 'd' || *format == 'i')
+count += p_int(args);
 else if (*format == '\0')
 return (-1);
 else
