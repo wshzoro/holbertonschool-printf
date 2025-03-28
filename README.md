@@ -12,7 +12,9 @@ We have developed a simplified version of printf, using Betty stylecode. Our imp
 
 The printf function processes the argument list, displays the corresponding values, and returns the total number of printed characters.
 
-flowcharts : 
+flowcharts :
+
+
 ![Flowchart](https://github.com/user-attachments/assets/d5373dd4-6bcc-4e1e-ab24-191a03358d75)
 
 
@@ -28,17 +30,28 @@ Execute the outpout:
 ./a.out`
 
 Files :
-_putchar.c: declare the function putchar
+_putchar.c:
 
-_print_character.c: contains the function s,c,% who print a string of a character or just one character, use in the printf function
+declare the function putchar
 
-_print_number.c: contains the function i and d who prints an interger use too in the printf function
+_print_character.c: 
+contains the function s,c,% who print a string of a character or just one character, use in the printf function
 
-main.h: contain all the prototype and the headers of the project
+_print_number.c:
 
-printf: contain the printf function
+contains the function i and d who prints an interger use too in the printf function
 
-man_3_printf : manual of the function printf
+main.h:
+
+contain all the prototype and the headers of the project
+
+printf:
+
+contain the printf function
+
+man_3_printf :
+
+manual of the function printf
 
 Example using:
 
