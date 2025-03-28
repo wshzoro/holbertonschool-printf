@@ -13,6 +13,8 @@ We have developed a simplified version of printf, using Betty stylecode. Our imp
 The printf function processes the argument list, displays the corresponding values, and returns the total number of printed characters.
 
 flowcharts : 
+![Flowchart](https://github.com/user-attachments/assets/d5373dd4-6bcc-4e1e-ab24-191a03358d75)
+
 
 Installation:
 
